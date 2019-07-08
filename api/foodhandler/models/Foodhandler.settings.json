@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "foodhandlers",
+  "info": {
+    "name": "foodhandler",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "lastName": {
+      "required": true,
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "stateOrigin": {
+      "type": "string"
+    },
+    "lga": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "employer": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

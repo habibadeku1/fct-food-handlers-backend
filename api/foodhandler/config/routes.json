@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/foodhandlers",
+      "handler": "Foodhandler.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foodhandlers/count",
+      "handler": "Foodhandler.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foodhandlers/:id",
+      "handler": "Foodhandler.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/foodhandlers",
+      "handler": "Foodhandler.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/foodhandlers/:id",
+      "handler": "Foodhandler.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/foodhandlers/:id",
+      "handler": "Foodhandler.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
