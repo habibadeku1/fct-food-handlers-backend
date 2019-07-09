@@ -12,7 +12,8 @@
         "password": "YEXvQjvgbgM6ARGB"
       },
       "options": {
-        "ssl": false
+        "ssl": false,
+        "debug": true
       }
     }
   }
