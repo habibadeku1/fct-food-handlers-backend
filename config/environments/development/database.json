@@ -2,17 +2,18 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
+      "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "pg",
+        "client": "postgres",
         "host": "fctfoodinstancedev.ceccrpsfl8lj.us-east-2.rds.amazonaws.com",
         "port": 5432,
         "database": "fct_food_dev",
         "username": "fct_food_dev",
-        "password": "YEXvQjvgbgM6ARGB",
-        "enabled": true,
-        "defaultConnection": "default"
+        "password": "YEXvQjvgbgM6ARGB"
       },
-      "options": {}
+      "options": {
+        "ssl": false
+      }
     }
   }
 }
