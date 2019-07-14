@@ -23,11 +23,11 @@
     },
     "testName": {
       "required": true,
-      "type": "json"
+      "type": "string"
     },
     "testResult": {
       "required": true,
-      "type": "json"
+      "type": "string"
     }
   }
 }
