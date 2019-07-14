@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "labtesttypes",
+  "info": {
+    "name": "labtesttype",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "testName": {
+      "type": "string"
+    }
+  }
+}

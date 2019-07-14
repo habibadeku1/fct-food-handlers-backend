@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "payments",
+  "info": {
+    "name": "payment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "referenceId": {
+      "type": "string"
+    },
+    "foodhandler": {
+      "model": "foodhandler",
+      "via": "payments"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "employers",
+  "info": {
+    "name": "employer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "empName": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "empUniqueId": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "empAddress": {
+      "type": "string"
+    },
+    "foodhandlers": {
+      "collection": "foodhandler",
+      "via": "employer"
+    }
+  }
+}

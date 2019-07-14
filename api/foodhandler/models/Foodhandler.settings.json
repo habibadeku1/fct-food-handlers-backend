@@ -36,11 +36,28 @@
     "telephone": {
       "type": "string"
     },
-    "employer": {
-      "type": "string"
-    },
     "address": {
       "type": "string"
+    },
+    "uniqueId": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "expiryDate": {
+      "type": "date"
+    },
+    "payments": {
+      "collection": "payment",
+      "via": "foodhandler"
+    },
+    "employer": {
+      "model": "employer",
+      "via": "foodhandlers"
+    },
+    "labtests": {
+      "collection": "labtest",
+      "via": "foodhandler"
     }
   }
 }

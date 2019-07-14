@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/labtesttypes",
+      "handler": "Labtesttype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/labtesttypes/count",
+      "handler": "Labtesttype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/labtesttypes/:id",
+      "handler": "Labtesttype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/labtesttypes",
+      "handler": "Labtesttype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/labtesttypes/:id",
+      "handler": "Labtesttype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/labtesttypes/:id",
+      "handler": "Labtesttype.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

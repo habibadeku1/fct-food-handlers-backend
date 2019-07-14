@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/labtests",
+      "handler": "Labtest.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/labtests/count",
+      "handler": "Labtest.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/labtests/:id",
+      "handler": "Labtest.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/labtests",
+      "handler": "Labtest.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/labtests/:id",
+      "handler": "Labtest.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/labtests/:id",
+      "handler": "Labtest.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

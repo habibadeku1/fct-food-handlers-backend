@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "labtests",
+  "info": {
+    "name": "labtest",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "testNote": {
+      "type": "text"
+    },
+    "foodhandler": {
+      "model": "foodhandler",
+      "via": "labtests"
+    },
+    "testName": {
+      "required": true,
+      "type": "json"
+    },
+    "testResult": {
+      "required": true,
+      "type": "json"
+    }
+  }
+}
