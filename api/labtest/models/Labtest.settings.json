@@ -17,10 +17,6 @@
     "testNote": {
       "type": "text"
     },
-    "foodhandler": {
-      "model": "foodhandler",
-      "via": "labtests"
-    },
     "testName": {
       "required": true,
       "type": "string"
@@ -28,6 +24,10 @@
     "testResult": {
       "required": true,
       "type": "string"
+    },
+    "foodhandler": {
+      "model": "foodhandler",
+      "via": "labtests"
     }
   }
 }

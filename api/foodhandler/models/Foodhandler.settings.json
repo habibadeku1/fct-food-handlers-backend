@@ -58,6 +58,12 @@
     "labtests": {
       "collection": "labtest",
       "via": "foodhandler"
+    },
+    "status": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
     }
   }
 }
