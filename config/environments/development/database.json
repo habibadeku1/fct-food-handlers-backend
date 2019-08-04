@@ -5,10 +5,10 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "fctfoodinstancedev.cpobzpftzce3.eu-central-1.rds.amazonaws.com",
+        "host": "fctfoodinstance.ccg0komfeibn.us-east-2.rds.amazonaws.com",
         "port": 5432,
-        "database": "fct_food_dev",
-        "username": "fct_food_dev",
+        "database": "fct_food",
+        "username": "fct_food",
         "password": "YEXvQjvgbgM6ARGB"
       },
       "options": {
